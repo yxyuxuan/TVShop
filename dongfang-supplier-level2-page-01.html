@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=5.0000">
+	<meta name="page-view-size" content="1280*720">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>供应商 | 东方购物 | 二级页面 | 有子菜单</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!-- [东方购物LOGO]开始 -->
+<a class="sup-logo" href="#">
+    <img src="img/ori-shopping-logo.png" alt="">
+</a>
+<!-- [东方购物LOGO]结束 -->
+<!-- [一级菜单]开始 -->
+<div class="nav-decor"></div>
+<table class="nav-items">
+    <tr>
+        <td>
+            <a id="4" href="huanqiu-supplier-homepage.html">家电/厨房</a></td>
+        <td>
+            <a id="6" href="${base}/product/list?productId=${product.id}&cloumnId=6&page=1&server=${server}">居家/生活</a></td>
+        <td>
+            <a id="7" href="${base}/product/list?productId=${product.id}&cloumnId=7&page=1&server=${server}">健康/生活</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<!-- [一级菜单]开始 -->
+<!-- [返回键]开始 -->
+<div class="nav-back"></div>
+<a href="${base}/ocn/index/${server}" class="nav-back-txt">商城首页</a>
+<!-- [返回键]结束 -->
+
+<!-- [二级菜单]开始 -->
+	<div class="sub-nav">
+		<ul>
+			<li><a href="#">小家电</a></li>
+			<li><a href="#">大家电</a></li>
+			<li><a href="#">手机数码</a></li>
+			<li><a href="#">厨房家电</a></li>
+		</ul>
+	</div>
+<!-- [二级菜单]结束 -->
+
+<!-- [主要内容]开始 -->
+	<div class="top-content">
+		<a class="topNav-item-top-1" href="dongfang-supplier-detail-page.html">
+			<img src="img/digital-top-1.jpg" alt="digital-top-1">
+			<span>美式家具</span>
+		</a>
+		<a class="topNav-item-top-2" href="huanqiu-supplier-detail-page.html">
+			<img src="img/digital-top-2.jpg" alt="digital-top-2">
+			<span>超低价囤货</span>
+		</a>
+		<a class="topNav-item-top-3" href="digital-top-3.html">
+			<img src="img/digital-top-3.jpg" alt="digital-top-3">
+			<span>超低价囤货</span>
+		</a>
+		<a class="topNav-item-top-4" href="digital-top-4.html">
+			<img src="img/digital-top-4.jpg" alt="digital-top-4">
+			<span>超低价囤货</span>
+		</a>
+		<a class="topNav-item-bottom-1" href="digital-bottom-1.html">
+			<img src="img/digital-bottom-1.jpg" alt="digital-bottom-1">
+			<span>超低价囤货</span>
+		</a>
+		<a class="topNav-item-bottom-2" href="digital-bottom-2.html">
+			<img src="img/digital-bottom-2.jpg" alt="digital-bottom-2">
+			<span>超低价囤货</span>
+		</a>
+		<a class="topNav-item-bottom-3" href="digital-bottom-3.html">
+			<img src="img/digital-bottom-3.jpg" alt="digital-bottom-3">
+			<span>超低价囤货</span>
+		</a>
+		<a class="topNav-item-bottom-4" href="digital-bottom-4.html">
+			<img src="img/digital-bottom-4.jpg" alt="digital-bottom-4">
+			<span>超低价囤货</span>
+		</a>
+	</div>
+<!-- [主要内容]结束 -->
+	
+<!-- [翻页效果]开始 -->
+	<div class="page-effect-group">
+		<div id="home-page-effect" class="page-effect-common home-page-effect">
+			<img src="img/home-page-effect.jpg" alt="">
+		</div>
+		<div id="pre-page-effect" class="page-effect-common pre-page-effect">
+			<img src="img/pre-page-effect.jpg" alt="">
+		</div>
+		<div id="next-page-effect" class="page-effect-common next-page-effect">
+			<img src="img/next-page-effect.jpg" alt="">
+		</div>
+		<div id="last-page-effect" class="page-effect-common last-page-effect">
+			<img src="img/last-page-effect.jpg" alt="">
+		</div>
+	</div>
+<!-- [翻页效果]结束 -->
+<!-- [翻页页数]开始 -->
+	<span class="page-number-01">15</span>
+	<img src="img/dash.png" alt="" class="dash-symbol">
+	<span class="page-number-02">15</span>
+<!-- [翻页页数]结束 -->
+<!-- [翻页]开始 -->
+	<a href="" class="home-page" onfocus="showUp('home-page-effect')" onblur="hideEffect('home-page-effect')"><img src="img/home-page.jpg" alt="" ></a>
+	<a href="" class="pre-page" onfocus="showUp('pre-page-effect')" onblur="hideEffect('pre-page-effect')"><img src="img/pre-page.jpg" alt=""></a>
+	<a href="" id="nextPage" class="next-page" onfocus="showUp('next-page-effect')" onblur="hideEffect('next-page-effect')"><img src="img/next-page.jpg" alt="" ></a>
+	<a href="" class="last-page" onfocus="showUp('last-page-effect')" onblur="hideEffect('last-page-effect')"><img src="img/last-page.jpg" alt="" ></a>
+<!-- [翻页]结束	 -->
+
+<script src="js/turnPage.js"></script>
+<script>
+	function focus(){
+		if(document.readyState == "complete"){
+			document.getElementById("nextPage").focus();		
+		}
+	}
+</script>
+</body>
+</html>

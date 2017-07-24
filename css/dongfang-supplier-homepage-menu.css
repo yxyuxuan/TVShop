@@ -1,0 +1,30 @@
+/* [dongfang-supplier-homepage] navigation */
+.nav-decor-supplier { background-color: rgba(22, 62, 118, 0.8); width: 830px; height: 65px; position: absolute; left: 278px; top: 46px; }
+
+.navigation-ori-shopping { background-color: transparent; width: 780px; height: 76px; position: absolute; left: 285px; top: 41px; }
+.navigation-ori-shopping a { display: block; width: 130px; height: 76px; line-height: 71px; text-align: center; color: #a6b0c8; font-size: 23.22px; }
+.navigation-ori-shopping a:focus { color: #ffdd00; }
+
+/* [dongfang-supplier-homepage] navigation, [common effect] */
+.oriShopping-effect-common { display: none; }
+.oriShopping-effect-common img { width: 130px; height: 76px; }
+
+/* [dongfang-supplier-homepage] "back", [common effect] */
+.supplier-back-common { display: none; }
+.supplier-back-common img { width: 104px; height: 76px; }
+
+/* [dongfang-supplier-homepage] navigation, [specific effect] */
+.oriShopping-effect-pos-01 { position: absolute; left: 288px; top: 41px; }
+
+.oriShopping-effect-pos-02 { position: absolute; left: 419px; top: 41px; }
+
+.oriShopping-effect-pos-03 { position: absolute; left: 551px; top: 41px; }
+
+.oriShopping-effect-pos-04 { position: absolute; left: 684px; top: 41px; }
+
+.oriShopping-effect-pos-05 { position: absolute; left: 816px; top: 41px; }
+
+.oriShopping-effect-pos-06 { position: absolute; left: 949px; top: 41px; }
+
+/* [dongfang-supplier-homepage] "back", [specific effect] */
+.supplier-back-effect-pos { position: absolute; left: 1113px; top: 41px; }

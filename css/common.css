@@ -1,0 +1,64 @@
+/* base */
+* { margin: 0; padding: 0; font: 23px "SimHei"; outline: none; }
+ul, ol { list-style: none; }
+a { text-decoration: none; border: none; color: rgba(255, 255, 255, 0.5); }
+img { border: none; }
+
+/* common background-image */
+body { background-image: url(../img/bg.jpg); background-repeat: no-repeat; }
+.mainBody{ background-image: url(../img/video-bg.png); background-repeat: no-repeat; }
+
+/* logo */
+.plat-logo { display: block; width: 130px; height: 76px; position: absolute; left: 59px; top: 39px; text-align: center; }
+.plat-logo img { margin-top: 10px; }
+.plat-logo:focus { background-image: url(../img/focu-bg-1.jpg); background-repeat: repeat-x; }
+.sup-logo { display: block; width: 190px; height: 65px; position: absolute; left: 62px; top: 44px; overflow: hidden; border: 2px solid transparent; }
+.sup-logo:focus { background-image: url(../img/focu-bg-1.jpg); background-repeat: repeat-x;  }
+
+/* main menu */
+.nav-decor { background-color: rgba(22, 62, 118, 0.8); width: 810px; height: 65px; position: absolute; left: 268px; top: 46px; }
+.nav-items { background-color: transparent; width: 780px; height: 76px; position: absolute; left: 276px; top: 39px; }
+.nav-items a { display: block; width: 130px; height: 76px; line-height: 76px; text-align: center; color: #a6b0c8; font-size: 23.22px; }
+.nav-items a:focus { color: #ffffff; background-image: url(../img/focu-bg-1.jpg); }
+.nav-back { background-color: rgba(22, 62, 118, 0.8); width: 130px; height: 65px; position: absolute; left: 1088px; top: 46px; }
+.nav-back-txt { display: block; width: 130px; height: 76px; line-height: 76px; position: absolute; left: 1088px; top: 40px; text-align: center; font-size: 23.22px; }
+.nav-back-txt:focus { color: #ffffff; background-image: url(../img/focu-bg-1.jpg);}
+
+/* secondary menu for index*/
+.sub-nav { background-color: #2A4F82; width: 146px; height: 550px; position: absolute; left: 59px; top: 128px; }
+.sub-nav ul { background-color: transparent; width: 156px; height: 328px; position: absolute; left: -11px; top: 0; }
+.sub-nav ul li { border-bottom: 1px solid #0D1468; }
+.sub-nav ul a { display: block; width: 156px; height: 86px; line-height: 86px; text-align: center; color: #ffffff; }
+.sub-nav ul a:focus { color: #ffffff; background-image: url(../img/focu-bg-2.jpg); }
+
+/* three level menu for index*/
+.subs-nav { background-color: #163E76; width: 170px; height: 550px; position: absolute; left: 206px; top: 128px; }
+
+/* items for three level menu */
+#activities-items { background-color: transparent; width: 170px; height: 550px; position: absolute; left: 0; top: 0; }
+#activities-items .substitle-text { font-size: 20px; display: inline; vertical-align: middle; margin-top: 0; }
+#activities-items p { font-size: 20px; line-height: 25px; }
+#activities-items .substitle-Ptext { padding-top: 15px; }
+#brands-items, #products-items { display: none; background-color: transparent; width: 170px; height: 550px; position: absolute; left: 0; top: 0; }
+#brands-items span, #products-items span { font-size: 20px; vertical-align: middle; padding-left: 18px; }
+#brands-items img, #products-items img { vertical-align: middle; display: inline; }
+#products-items .substitle-text { font-size: 20px; display: inline; vertical-align: middle; }
+.subsMenu-logo-orient { width: 47px; height: 39px; }
+.subsMenu-logo-tgo { width: 36px; height: 40px; }
+.subsMenu-logo-world { width: 41px; height: 41px; }
+.subsMenu-logo-food { width: 40px; height: 39px; }
+.subsMenu-logo-sunshine { width: 41px; height: 40px; }
+.subs-nav a { display: block; width: 170px; height: 86px; line-height: 86px; text-align: center; font-size: 20px; color: #ffffff; margin-top: 0; padding-top: 0; }
+.subs-nav a:focus { color: #ffffff; background-image: url(../img/focu-bg-3.jpg); }
+
+/* turn page */
+.page-effect-common { display: none; }
+.page-effect-common img { width: 101px; height: 44px; }
+.page-number, .page-number-01, .page-number-02 { font-size: 25px; color: #467ACE; width: 30px; height: 25px; }
+.page-number-01 { position: absolute; left: 681px; top: 635px; text-align: right; }
+.page-number-02 { position: absolute; left: 729px; top: 635px; text-align: left; }
+.dash-symbol { width: 15px; height: 23px; position: absolute; left: 714px; top: 635px; }
+.home-page, .home-page-effect { position: absolute; left: 772px; top: 626px; }
+.pre-page, .pre-page-effect { position: absolute; left: 887px; top: 626px; }
+.next-page, .next-page-effect { position: absolute; left: 1002px; top: 626px; color: #fff; }
+.last-page, .last-page-effect { position: absolute; left: 1113px; top: 626px; }

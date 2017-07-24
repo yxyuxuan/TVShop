@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* [platform-homepage] logo and menu */
+/* [platform-homepage] main menu */
+.nav-decoration { background-color: rgba(22, 62, 118, 0.8); width: 937px; height: 65px; position: absolute; left: 278px; top: 46px; }
+
+.navigation { background-color: transparent; width: 923px; height: 65px; position: absolute; left: 285px; top: 41px; }
+.navigation a { display: block; width: 150px; height: 76px; line-height: 71px; text-align: center; color: #a6b0c8; font-size: 23.22px; }
+.navigation a:focus { color: #ffdd00; }
+
+/* [platform-homepage] main menu锛孾common effect] */
+.effect-common { display: none; }
+.effect-common img { width: 150px; height: 76px; }
+
+/* [platform-homepage] main menu锛孾specific effect] */
+.effect-position-01 { position: absolute; left: 284px; top: 41px; }
+
+.effect-position-02 { position: absolute; left: 436px; top: 41px; }
+
+.effect-position-03 { position: absolute; left: 589px; top: 41px; }
+
+.effect-position-04 { position: absolute; left: 742px; top: 41px; }
+
+.effect-position-05 { position: absolute; left: 896px; top: 41px; }
+
+.effect-position-06 { position: absolute; left: 1053px; top: 41px; }
+
+/* [platform-homepage] secondary menu */
+.sub-nav { background-color: #2A4F82; width: 146px; height: 550px; position: absolute; left: 59px; top: 128px; }
+.sub-nav ul { background-color: transparent; width: 156px; height: 328px; position: absolute; left: -11px; top: 0; }
+.sub-nav ul li { border-bottom: 1px solid #0D1468; }
+.sub-nav ul a { display: block; width: 156px; height: 82px; line-height: 82px; text-align: center; color: #fff; }
+.sub-nav ul a:focus { color: #ffdd00; }
+
+/* [platform-homepage] secondary menu锛孾common effect]*/
+.sub-effect-common { display: none; }
+.sub-effect-common img { width: 156px; height: 90px; }
+
+/* [platform-homepage] secondary menu锛孾specific effect]*/
+.sub-effect-position-01 { position: absolute; left: 49px; top: 128px; }
+
+.sub-effect-position-02 { position: absolute; left: 49px; top: 210px; }
+
+.sub-effect-position-03 { position: absolute; left: 49px; top: 292px; }
+
+.sub-effect-position-04 { position: absolute; left: 49px; top: 374px; }
+
+/* [platform-homepage] three-level menu */
+.subs-nav { background-color: #163E76; width: 170px; height: 550px; position: absolute; left: 206px; top: 128px; }
+
+/* [platform-homepage] three-level menu, [common effect] */
+.subHead-effect-common { display: none; }
+.subHead-effect-common img { width: 170px; height: 90px; }
+
+/* [platform-homepage] three-level menu, [specific effect] */
+.subHead-effect-position-01 { position: relative; left: 0; top: 0; }
+
+.subHead-effect-position-02 { position: relative; left: 0; top: 83px; }
+
+.subHead-effect-position-03 { position: relative; left: 0; top: 166px; }
+
+.subHead-effect-position-04 { position: relative; left: 0; top: 248px; }
+
+.subHead-effect-position-05 { position: relative; left: 0; top: 330px; }
+
+/* [platform-homepage] three-level menu, [first item] */
+#activities-items { background-color: transparent; width: 170px; height: 550px; position: absolute; left: 0; top: 0; }
+#activities-items a { display: block; width: 170px; height: 82px; line-height: 82px; text-align: center; font-size: 20px; }
+#activities-items a:focus { color: #ffdd00; }
+#activities-items .substitle-text { font-size: 20px; display: inline; vertical-align: middle; }
+#activities-items p { font-size: 20px; line-height: 25px; }
+#activities-items .substitle-Ptext { padding-top: 15px; }
+
+/* [platform-homepage] three-level menu, [the second and the third items] */
+#brands-items, #products-items { display: none; background-color: transparent; width: 170px; height: 550px; position: absolute; left: 0; top: 0; }
+#brands-items a, #products-items a { display: block; width: 170px; height: 82px; line-height: 82px; text-align: center; font-size: 20px; }
+#brands-items a:focus, #products-items a:focus { color: #ffdd00; }
+#brands-items span, #products-items span { font-size: 20px; vertical-align: middle; padding-left: 18px; }
+#brands-items img, #products-items img { vertical-align: middle; }
+
+/* [platform-homepage] three-level menu, [small logo] */
+.subsMenu-logo-orient { width: 47px; height: 39px; }
+
+.subsMenu-logo-tgo { width: 36px; height: 40px; }
+
+.subsMenu-logo-world { width: 41px; height: 41px; }
+
+.subsMenu-logo-food { width: 40px; height: 39px; }
+
+.subsMenu-logo-sunshine { width: 41px; height: 40px; }
+
+/* [platform-homepage] main content */
+.main-content { background-color: #163E76; }
+.main-content a { display: block; width: 555px; height: 365px; border: 3px solid transparent; }
+.main-content a:focus { border: 3px solid #c03a19; z-index: 99; }
+.main-content .left-1 { background-color: #163E76; width: 555px; height: 365px; position: absolute; left: 380px; top: 127px; }
+.main-content .right-1 { background-color: #163E76; width: 275px; height: 180px; position: absolute; left: 939px; top: 128px; }
+.main-content .right-2 { background-color: #163E76; width: 275px; height: 180px; position: absolute; left: 939px; top: 312px; }
+.main-content .bottom-1 { background-color: #163E76; width: 275px; height: 180px; position: absolute; left: 380px; top: 495px; }
+.main-content .bottom-2 { background-color: #163E76; width: 275px; height: 180px; position: absolute; left: 660px; top: 495px; }
+.main-content .bottom-3 { background-color: #163E76; width: 275px; height: 180px; position: absolute; left: 939px; top: 495px; }

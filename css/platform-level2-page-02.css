@@ -1,0 +1,36 @@
+/* [platform-level3-page] main content style for title */
+.subPage-title-bgc { background-color: rgba(0, 0, 53, 0.8); width: 276px; height: 41px; }
+
+/* [platform-level3-page] main content, [specific effect]*/
+.subPage-title-bgc-01, .subPage-effect-pos-01 { position: absolute; left: 71px; top: 324px; }
+
+.subPage-title-bgc-02, .subPage-effect-pos-02 { position: absolute; left: 363px; top: 324px; }
+
+.subPage-title-bgc-03, .subPage-effect-pos-03 { position: absolute; left: 654px; top: 324px; }
+
+.subPage-title-bgc-04, .subPage-effect-pos-04 { position: absolute; left: 946px; top: 324px; }
+
+.subPage-title-bgc-05, .subPage-effect-pos-05 { position: absolute; left: 71px; top: 570px; }
+
+.subPage-title-bgc-06, .subPage-effect-pos-06 { position: absolute; left: 363px; top: 570px; }
+
+.subPage-title-bgc-07, .subPage-effect-pos-07 { position: absolute; left: 654px; top: 570px; }
+
+.subPage-title-bgc-08, .subPage-effect-pos-08 { position: absolute; left: 946px; top: 570px; }
+
+/* [platform-level3-page] main content, [common effect]*/
+.subPage-effect-common { width: 276px; height: 42px; background-color: #C03918; display: none; }
+
+/* [platform-level3-page] main content*/
+.subPage-items span { display: block; width: 275px; height: 40px; line-height: 40px; color: #fff; font-size: 20px; text-align: center; margin-top: -5px; }
+.subPage-items a { border: 7px solid transparent; }
+.subPage-items a:focus { border: 7px solid #C13C19; }
+.subPage-items .subPage-item-top-1 { position: absolute; left: 65px; top: 138px; }
+.subPage-items .subPage-item-top-2 { position: absolute; left: 357px; top: 138px; }
+.subPage-items .subPage-item-top-3 { position: absolute; left: 648px; top: 138px; }
+.subPage-items .subPage-item-top-4 { position: absolute; left: 940px; top: 138px; }
+.subPage-items .subPage-item-bottom-1 { position: absolute; left: 65px; top: 383px; }
+.subPage-items .subPage-item-bottom-2 { position: absolute; left: 357px; top: 383px; }
+.subPage-items .subPage-item-bottom-3 { position: absolute; left: 648px; top: 383px; }
+.subPage-items .subPage-item-bottom-4 { position: absolute; left: 940px; top: 383px; }
+.subPage-items img { width: 275px; height: 180px; }

@@ -1,0 +1,23 @@
+/* [huanqiu-supplier-homepage] navigation */
+.nav-decor-supplier { background-color: rgba(22, 62, 118, 0.8); width: 830px; height: 65px; position: absolute; left: 278px; top: 46px; }
+
+.navigation-glo-shopping { background-color: transparent; width: 830px; height: 76px; position: absolute; left: 285px; top: 41px; }
+.navigation-glo-shopping a { display: block; width: 156px; height: 76px; line-height: 71px; text-align: center; color: #a6b0c8; font-size: 23.22px; }
+.navigation-glo-shopping a:focus { color: #ffdd00; }
+
+/* [huanqiu-supplier-homepage] navigation, [common effect] */
+.gloShopping-effect-common { display: none; }
+.gloShopping-effect-common img { width: 156px; height: 76px; }
+
+/* [huanqiu-supplier-homepage] navigation, [specific effect] */
+.gloShopping-effect-pos-01 { position: absolute; left: 287px; top: 41px; }
+
+.gloShopping-effect-pos-02 { position: absolute; left: 452px; top: 41px; }
+
+.gloShopping-effect-pos-03 { position: absolute; left: 618px; top: 41px; }
+
+.gloShopping-effect-pos-04 { position: absolute; left: 784px; top: 41px; }
+
+.gloShopping-effect-pos-05 { position: absolute; left: 951px; top: 41px; }
+
+.gloShopping-effect-pos-06 { position: absolute; left: 1065px; top: 41px; }

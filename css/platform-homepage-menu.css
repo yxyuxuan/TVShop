@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* [platform-homepage] main menu */
+.nav-decoration { background-color: rgba(22, 62, 118, 0.8); width: 937px; height: 65px; position: absolute; left: 278px; top: 46px; }
+
+.navigation { background-color: transparent; width: 923px; height: 65px; position: absolute; left: 285px; top: 41px; }
+.navigation a { display: block; width: 150px; height: 76px; line-height: 71px; text-align: center; color: #a6b0c8; font-size: 23.22px; }
+.navigation a:focus { color: #ffdd00; }
+
+/* [platform-homepage] main menu锛孾common effect] */
+.effect-common { display: none; }
+.effect-common img { width: 150px; height: 76px; }
+
+/* [platform-homepage] main menu锛孾specific effect] */
+.effect-position-01 { position: absolute; left: 284px; top: 41px; }
+
+.effect-position-02 { position: absolute; left: 436px; top: 41px; }
+
+.effect-position-03 { position: absolute; left: 589px; top: 41px; }
+
+.effect-position-04 { position: absolute; left: 742px; top: 41px; }
+
+.effect-position-05 { position: absolute; left: 896px; top: 41px; }
+
+.effect-position-06 { position: absolute; left: 1053px; top: 41px; }
+
+/* [platform-homepage] secondary menu */
+.sub-nav { background-color: #2A4F82; width: 146px; height: 550px; position: absolute; left: 59px; top: 128px; }
+.sub-nav ul { background-color: transparent; width: 156px; height: 328px; position: absolute; left: -11px; top: 0; }
+.sub-nav ul li { border-bottom: 1px solid #0D1468; }
+.sub-nav ul a { display: block; width: 156px; height: 82px; line-height: 82px; text-align: center; color: #fff; }
+.sub-nav ul a:focus { color: #ffdd00; }
+
+/* [platform-homepage] secondary menu锛孾common effect]*/
+.sub-effect-common { display: none; }
+.sub-effect-common img { width: 156px; height: 90px; }
+
+/* [platform-homepage] secondary menu锛孾specific effect]*/
+.sub-effect-position-01 { position: absolute; left: 49px; top: 128px; }
+
+.sub-effect-position-02 { position: absolute; left: 49px; top: 210px; }
+
+.sub-effect-position-03 { position: absolute; left: 49px; top: 292px; }
+
+.sub-effect-position-04 { position: absolute; left: 49px; top: 374px; }

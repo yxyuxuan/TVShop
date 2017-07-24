@@ -1,0 +1,57 @@
+/* [platform-secondary-page] specific secondary menu */
+.main-sub-effect-common { display: none; }
+.main-sub-effect-common img { width: 156px; height: 100px; }
+
+/* [platform-secondary-page] main content style for title */
+.content-title-bgc { width: 245px; height: 40px; }
+
+.title-bgc-01 { position: absolute; left: 217px; top: 321px; }
+
+.title-bgc-02 { position: absolute; left: 469px; top: 321px; }
+
+.title-bgc-03 { position: absolute; left: 721px; top: 321px; }
+
+.title-bgc-04 { position: absolute; left: 973px; top: 321px; }
+
+.title-bgc-05 { position: absolute; left: 217px; top: 566px; }
+
+.title-bgc-06 { position: absolute; left: 469px; top: 566px; }
+
+.title-bgc-07 { position: absolute; left: 721px; top: 566px; }
+
+.title-bgc-08 { position: absolute; left: 973px; top: 566px; }
+
+/* [platform-secondary-page] main content */
+.top-content a { display: block; width: 245px; border: 3px solid transparent; }
+.top-content .topNav-item-top-1 { position: absolute; left: 214px; top: 138px; }
+.top-content .topNav-item-top-2 { position: absolute; left: 466px; top: 138px; }
+.top-content .topNav-item-top-3 { position: absolute; left: 718px; top: 138px; }
+.top-content .topNav-item-top-4 { position: absolute; left: 970px; top: 138px; }
+.top-content .topNav-item-bottom-1 { position: absolute; left: 214px; top: 383px; }
+.top-content .topNav-item-bottom-2 { position: absolute; left: 466px; top: 383px; }
+.top-content .topNav-item-bottom-3 { position: absolute; left: 718px; top: 383px; }
+.top-content .topNav-item-bottom-4 { position: absolute; left: 970px; top: 383px; }
+.top-content .img { width: 245px; height: 180px; }
+.top-content span { display: block; width: 245px; height: 40px; line-height: 40px; color: #fff; font-size: 20px; text-align: center; margin-top: -5px; z-index: 99; }
+.top-content a:focus { border: 3px solid #C3401A; }
+
+/* [platform-secondary-page] main content, [common effect]*/
+.content-effect-common { display: none; }
+.content-effect-common img { width: 245px; height: 41px; }
+
+/* [platform-secondary-page] main content, [specific effect]*/
+.content-effect-pos-01 { position: absolute; left: 217px; top: 321px; }
+
+.content-effect-pos-02 { position: absolute; left: 469px; top: 321px; }
+
+.content-effect-pos-03 { position: absolute; left: 721px; top: 321px; }
+
+.content-effect-pos-04 { position: absolute; left: 973px; top: 321px; }
+
+.content-effect-pos-05 { position: absolute; left: 217px; top: 566px; }
+
+.content-effect-pos-06 { position: absolute; left: 469px; top: 566px; }
+
+.content-effect-pos-07 { position: absolute; left: 721px; top: 566px; }
+
+.content-effect-pos-08 { position: absolute; left: 973px; top: 566px; }

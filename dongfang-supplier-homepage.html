@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=5.0000">
+	<meta name="page-view-size" content="1280*720">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>供应商 | 东方购物 | 首页</title>
+    <link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/main.css">
+	<style>
+        #orient-content-imgOrVideo {
+            width: 569px;
+            height: 322px;
+            margin: 0 auto;
+            border: 1px solid transparent;
+            overflow: hidden;
+        }
+
+        #mode_container {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        #mode_container ul {
+            padding: 10px 0;
+        }
+
+        #mode_container li {
+            list-style: none;
+            float: left;
+            padding-right: 15px;
+        }
+
+        #left_container {
+            left: 0px;
+            width: 200px;
+            float: left;
+            border: 1px solid #00FF00;
+            overflow: hidden;
+        }
+
+        #result {
+            margin: 0 auto;
+            background-color: #ABDCE7;
+            word-break: break-all;
+            word-wrap: break-word;
+            overflow-y: scroll;
+            overflow-x: scroll;
+            font-size: 10px;
+        }
+
+        #right_container {
+            border: 1px solid transparent;
+            width: 569px;
+            height: 322px;
+        }
+
+        #player {
+            width: 569px;
+            height: 320px;
+            border: 1px solid transparent;
+        }
+    </style>
+</head>
+<body onload="create()" onunload="destroy()" class="mainBody">
+<!-- [东方购物LOGO]开始 -->
+<a class="sup-logo" href="#">
+    <img src="img/ori-shopping-logo.png" alt="">
+</a>
+<!-- [东方购物LOGO]结束 -->
+<!-- [一级菜单]开始 -->
+<div class="nav-decor"></div>
+<table class="nav-items">
+    <tr>
+        <td>
+            <a id="4" href="dongfang-supplier-level2-page-01.html">家电/厨房</a></td>
+        <td>
+            <a id="6" href="platform-level2-page-01.html">居家/生活</a></td>
+        <td>
+            <a id="7" href="platform-level2-page-02.html">健康/生活</a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<!-- [一级菜单]开始 -->
+<!-- [返回键]开始 -->
+<div class="nav-back"></div>
+<a href="index.html" class="nav-back-txt">商城首页</a>
+<!-- [返回键]结束 -->
+
+<!-- [主要内容]开始 -->
+	<div class="supplier-homepage-main">
+	<!-- [主要内容大图区]开始 -->
+		<!-- [主要内容大图区-标题背景颜色]开始 -->
+		<div class="supplier-bigTitle-bgc"></div>
+		<!-- [主要内容大图区-标题背景颜色]结束 -->
+		<!-- [主要内容大图区-图片]开始 -->
+		<div class="orient-item-main" style="width: 575px; left: 352px; top: 125px;">
+            <a id="orient-content-imgOrVideo" class="orient-content-imgOrVideo">
+                <div id="left_container" style="display:none">
+                    <ul>
+                    <#list video as v>  <li><label id="focus${v.sort}" class="label" for="${v.url}">节目${v.sort}</label></li></#list>
+                    </ul>
+                    <img src="img/orient-content-middle.jpg" alt="orient-content-middle">
+                    <div id="result">&nbsp; </div>
+                </div>
+                <div id="right_container">
+                    <div id="player" class="player">
+                        &nbsp;
+                    </div>
+                </div>
+            </a>
+	      	<!-- <a href="" class="orient-content-imgOrVideo">
+				<img src="img/orient-content-middle.jpg" alt="orient-content-middle">
+			</a> -->
+			<span>快快拿起电话，拨打400-696-8000</span>
+		</div>
+		<!-- [主要内容大图区-图片]结束 -->
+	<!-- [主要内容大图区]结束 -->
+	<!-- [主要内容小图区]开始 -->
+		<a href="" class="sup-hpage-item-left-1"><img src="img/orient-content-side-1.jpg" alt="" class="orient-item-smallImg"></a>
+		<a href="" class="sup-hpage-item-left-2"><img src="img/orient-content-side-2.jpg" alt="" class="orient-item-smallImg"></a>
+		<a href="" class="sup-hpage-item-left-3"><img src="img/orient-content-side-3.jpg" alt="" class="orient-item-smallImg"></a>
+		<a href="" class="sup-hpage-item-bottom-1"><img src="img/orient-content-bottom-1.jpg" alt="" class="orient-item-smallImg"></a>
+		<a href="" class="sup-hpage-item-bottom-2"><img src="img/orient-content-bottom-2.jpg" alt="" class="orient-item-smallImg"></a>
+		<a href="" class="sup-hpage-item-right-3"><img src="img/orient-content-side-3.jpg" alt="" class="orient-item-smallImg"></a>
+		<a href="" class="sup-hpage-item-right-2"><img src="img/orient-content-side-2.jpg" alt="" class="orient-item-smallImg"></a>
+		<a href="" class="sup-hpage-item-right-1"><img src="img/orient-content-side-1.jpg" alt="" class="orient-item-smallImg"></a>
+	</div>	
+	<!-- [主要内容小图区]结束 -->
+<!-- [主要内容]结束 -->
+</body>
+</html>

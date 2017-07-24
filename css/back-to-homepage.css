@@ -1,0 +1,5 @@
+/* for supplier: back to homepage */
+.nav-back { background-color: rgba(22, 62, 118, 0.8); width: 100px; height: 65px; position: absolute; left: 1115px; top: 46px; }
+
+.supplier-back { display: block; background-color: transparent; width: 50px; height: 28px; position: absolute; left: 1142px; top: 64px; line-height: 28px; text-align: center; color: #a6b0c8; font-size: 23.22px; }
+.supplier-back:focus { color: #ffdd00; }
